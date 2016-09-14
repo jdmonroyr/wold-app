@@ -1,0 +1,268 @@
+/* default transition */
+.transition,
+.transition:hover,
+.transition:focus {
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: #e5e9ec;
+}
+
+/* header top navigation bar */
+
+nav.navbar-fixed-top {
+    background-color: #FFF;
+    border: none;
+}
+
+/* left - header of side menu */
+
+nav .top-left-menu {
+    background-color: #252830;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #FFF
+}
+
+nav .header-home {
+    margin-left: auto;
+    color: #FFF;
+}
+
+/*nav toggle*/
+.navbar-toggle {
+  border-color: #252830;
+  background-color: #e5e9ec;
+  margin-top: 13px
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #252830;
+}
+
+nav #nav-menu-horizontal {
+    padding: 0.4em;
+    padding-right: 1em;
+}
+
+.navbar-nav > li > a {
+  padding-top: 1.5rem;
+  color: #252830;
+  font-weight: 550;
+}
+
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  padding-bottom: 0.62em;
+  border-bottom: 0.45em solid #F3F3F3;
+}
+
+/*nav options*/
+#nav-profile {
+  margin: 0.5em;
+  margin-left: 1em;
+}
+
+#nav-profile button.thumbnail {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#nav-profile img {
+  max-height: 2.3em;
+}
+
+#nav-profile button.thumbnail {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#nav-profile img {
+  max-height: 2.3em;
+}
+
+/*side menu*/
+#side-menu {
+  background-color: #1b1e24;
+  padding-top: 7.2rem;
+  height: 100%;
+  position: fixed;
+      z-index: 2;
+}
+
+#side-menu .profile-block > * {
+  display: inline-block;
+}
+
+#side-menu .profile-block img {
+  width: 70px;
+}
+
+#side-menu .profile-title {
+  color: #FFF;
+  margin-left: 1rem;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+#side-menu .profile-title small {
+  display: block;
+}
+
+#side-menu ul.nav {
+  margin-top: 1rem;
+}
+
+#side-menu ul.nav a {
+  color: #8b91a0;
+}
+
+#side-menu ul.nav a:hover,
+#side-menu ul.nav a:focus {
+  color: #FFF;
+  background-color: inherit;
+}
+
+#side-menu ul.nav a .glyphicon {
+  margin-right: 0.7rem;
+}
+
+#side-menu ul.nav a .glyphicon.pull-right {
+  margin-top: 0.2rem;
+  will-change: transform;
+}
+
+#side-menu ul.nav a:focus .glyphicon.pull-right {
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+#side-menu ul.nav .nav-divider {
+  background-color: #252830;
+}
+
+#side-menu ul.nav ul {
+  margin-left: 10%;
+}
+
+#side-menu ul.nav ul a {
+  display: block;
+  background-color: #2b303b;
+  padding: 1rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.25em;
+}
+
+#side-menu ul.nav ul a:hover {
+  text-decoration: none;
+  background-color: #434857;
+}
+
+/*main content*/
+#main {
+  padding-top: 7.2rem;
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.card {
+  position: relative;
+  border-radius: 0.25em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  background-color: #FFF;
+  margin: 1.25rem;
+  flex-grow: 5;
+}
+
+.card * {
+  color: #252830;
+}
+
+.card-block {
+  padding: 2rem;
+}
+
+.card-block h3 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: #252830;
+}
+
+/* footer */
+.footer {
+  color: #ADADAD;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer address {
+  color: #5A5A5A;
+}
+
+.footer ul {
+  margin-bottom: 2em;
+}
+
+.footer address strong {
+  color: #ADADAD;
+  display: block;
+  padding-bottom: 0.5em;
+}
+
+.footer a {
+  font-weight: 300;
+  color: #5A5A5A;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ADADAD;
+}
+
+/* forms */
+
+form {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.form-btn {
+    margin-top: 2rem;
+}
+
+
+/* tables */
+.center-block {
+  width: 95%;
+  padding-top: 3rem;
+}
+
+

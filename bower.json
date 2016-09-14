@@ -1,0 +1,12 @@
+{
+  "name": "wold-app",
+  "description": "wold comunicaciones app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jdmonroyr/wold-app",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
