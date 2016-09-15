@@ -2,25 +2,25 @@
     <div class="container-fluid">
       <div class="row">
         <div id="side-menu" class="col-xs-9 col-sm-3">
-          
+
           <!-- profile block -->
           <div class="profile-block">
             <img src="./images/user.jpg" class="img-circle">
             <h4 class="profile-title">default-user  <small>@default-user</small>
             </h4>
           </div>
-          
-          <!-- side menu options -->    
+
+          <!-- side menu options -->
           <ul class="nav nav-pills nav-stacked">
-           <!-- register options -->      
+           <!-- register options -->
            <li>
-              <a href="#register-opts" class="transition" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="register-opts">
+              <a href="#register-opts" class="transition" role="button" ng-click="isRegisterCollapsed = !isRegisterCollapsed" aria-expanded="false" aria-controls="register-opts">
                 <span class="glyphicon glyphicon-pencil" aria-hidden="true">
                 </span>
                 Registro
                 <span class="glyphicon glyphicon-menu-left pull-right transition" aria-hidden="true"></span>
               </a>
-              <ul class="collapse list-unstyled" id="register-opts">
+              <ul class="collapse list-unstyled" id="register-opts" uib-collapse="!isRegisterCollapsed">
                 <li>
                   <a href="#" class="transition">
                     Proveedor
@@ -41,32 +41,32 @@
           <li class="nav-divider"></li>
           <!-- sale options -->
           <li>
-            <a href="#sale-opts" class="transition" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sale-opts">
+            <a href="#sale-opts" class="transition" role="button"  ng-click="isSaleCollapsed = !isSaleCollapsed" aria-expanded="false" aria-controls="sale-opts">
               <span class="glyphicon glyphicon-usd" aria-hidden="true">
               </span>
               Ventas
               <span class="glyphicon glyphicon-menu-left pull-right transition" aria-hidden="true"></span>
             </a>
-            <ul class="collapse list-unstyled" id="sale-opts">
+            <ul class="collapse list-unstyled" id="sale-opts" uib-collapse="!isSaleCollapsed">
               <li>
                 <a href="#" class="transition">
-                  Registrar/Ver 
+                  Registrar/Ver
                 </a>
               </li>
             </ul>
           </li>
-          <!-- tech support options -->      
+          <!-- tech support options -->
           <li>
-            <a href="#tech-support-opts" class="transition" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="tech-support-opts">
+            <a href="#tech-support-opts" class="transition" role="button" ng-click="isTechSptCollapsed = !isTechSptCollapsed" aria-expanded="false" aria-controls="tech-support-opts">
               <span class="glyphicon glyphicon-wrench" aria-hidden="true">
               </span>
                 Serv. Tecnico
               <span class="glyphicon glyphicon-menu-left pull-right transition" aria-hidden="true"></span>
             </a>
-            <ul class="collapse list-unstyled" id="tech-support-opts">
+            <ul class="collapse list-unstyled" id="tech-support-opts" uib-collapse="!isTechSptCollapsed">
               <li>
                 <a href="#" class="transition">
-                  Registrar/Ver 
+                  Registrar/Ver
                 </a>
               </li>
               <li>
@@ -76,17 +76,17 @@
               </li>
             </ul>
           </li>
-          <!-- products options -->      
+          <!-- products options -->
           <li>
-            <a href="#products-opts" class="transition" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="products-opts">
+            <a href="#products-opts" class="transition" role="button" ng-click="isProductsCollapsed = !isProductsCollapsed" aria-expanded="false" aria-controls="products-opts">
               <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
                 Productos
               <span class="glyphicon glyphicon-menu-left pull-right transition" aria-hidden="true"></span>
             </a>
-            <ul class="collapse list-unstyled" id="products-opts">
+            <ul class="collapse list-unstyled" id="products-opts" uib-collapse="!isProductsCollapsed">
               <li>
                 <a href="#" class="transition">
-                  Registrar/Ver 
+                  Registrar/Ver
                 </a>
               </li>
               <li>
@@ -96,15 +96,15 @@
               </li>
             </ul>
           </li>
-          <!-- reports options -->      
+          <!-- reports options -->
           <li class="nav-divider"></li>
           <li>
-            <a href="#reports-opts" class="transition" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="reports-opts">
+            <a href="#reports-opts" class="transition" role="button" ng-click="isReportsCollapsed = !isReportsCollapsed" aria-expanded="false" aria-controls="reports-opts">
               <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
                 Informes
                 <span class="glyphicon glyphicon-menu-left pull-right transition" aria-hidden="true"></span>
             </a>
-            <ul class="collapse list-unstyled" id="reports-opts">
+            <ul class="collapse list-unstyled" id="reports-opts" uib-collapse="!isReportsCollapsed">
               <li>
                 <a href="#" class="transition">
                   Compras
