@@ -1,0 +1,27 @@
+<div class="card col-xs-9 col-lg-12">
+        <div class="card-block">
+          <h3>Suppliers List</h3>
+        <div class="center-block"></div>
+          <table class="table table-striped table-hover">
+            <thead>
+              <th class="success">
+                  <h4 class="text-center white-text">Full Name</h4>
+              </th>
+              <th class="info">
+                  <h4 class="text-center white-text">Main Email</h4>
+              </th>
+              <th class="success">
+                  <h4 class="text-center white-text">Main Address</h4>
+              </th>
+              <th class="info">
+                  <h4 class="text-center white-text">Phone Number</h4></th>
+            </thead>
+              <tr ng-repeat="supplier in suppliers">
+                <td>{{supplier.fullName}}</td>
+                <td>{{supplier.mainEmail}}</td>
+                <td>{{supplier.mainAddress}}</td>
+                <td>{{supplier.mainPhoneNumber}}</td>
+              </tr>
+          </table>
+        </div>
+      </div>
